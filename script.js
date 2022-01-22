@@ -3,6 +3,7 @@ let computerScore = 0;
 let currentRoundNumber = 1;
 
 // Write your code below:
+// This function generates the random number between 0 and 9 for the target
 
 function generateTarget() {
   return Math.floor(Math.random() * 9);
